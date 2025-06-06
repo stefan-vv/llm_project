@@ -38,3 +38,5 @@
 7. Vector db search using the embedded user query/prompt using `llm_api/llm_infra/context_data_retriever/context_data_retriever_controller.py` should yield the context information
 8. Using the`llm_api/llm_infra/model/model_api_controller.py` the model is called with the provided context and prompt, yielding the model output
 9. The server send back the output or prints it
+
+**NOTE**: The jira data of the user should be read from the db but not sure yet how it should be provided to the model. Perhaps it should follow the same treatment as the context data and provided as additional context?
