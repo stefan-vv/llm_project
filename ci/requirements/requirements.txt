@@ -1,0 +1,1 @@
+Add project python dependencies here for CI builds

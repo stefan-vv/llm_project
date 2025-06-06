@@ -1,0 +1,1 @@
+# Embed the user query (prompt)
